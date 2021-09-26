@@ -1,0 +1,133 @@
+.main{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userIcon{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+.userDetailsChild{
+    margin-left: -8px;
+    width: 278px;
+    display: flex;
+    align-items: center;
+}
+.userDetails{
+    display: flex;
+    align-items: center;
+}
+.NamenLocation{
+    text-align: left !important;
+    margin-left: 15px;
+    flex: none;
+    font-size: 15px;
+}
+.userName{
+    color: rgb(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+.fa-ellipsis-h{
+    font-size: 18px;
+    color: rgb(112, 112, 112, 0.9);
+}
+.userPicOrVideo{
+    margin-top: 6px;
+    width: 320px;
+    height: max-content;
+}
+.LikeCommentSection{
+    width: 320px;
+    margin-top: 7px;
+}
+.fa-heart{
+    font-size: 27px;
+    color: rgb(0, 0, 0, 0.6);
+    float: left;
+}
+.fa-comment{
+    font-size: 27px;
+    color: rgb(0, 0, 0, 0.6);
+    float: left;
+}
+.fa-paper-plane{
+    font-size: 27px;
+    color: rgb(0, 0, 0, 0.6);
+    float: left;
+}
+.fa-bookmark{
+    font-size: 25px;
+    color: rgb(0, 0, 0, 0.6);
+    float: right;
+}
+.LikeCount{
+    width: 320px;
+    margin-top: 10px;
+}
+.LikeCount img{
+    float: left;
+}
+.LikeIcon1{
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.LikeIcon2{
+    border-radius: 50%;
+    margin-left: -8px;
+}
+.LikeIcon3{
+    border-radius: 50%;
+    margin-left: -8px;
+}
+.LikeCount p{
+    font-size: 15px;
+}
+.Caption{
+    width: 320px;
+}
+.Caption p{
+    float: left;
+    margin-left: 8px;
+    margin-top: -9px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.Caption b{
+    font-size: 16px;
+    margin-right: 7px;
+    color: rgb(0, 0, 0, 0.7);
+}
+.Caption i{
+    color: rgb(148, 148, 148);
+}
+.viewComment{
+    color: rgb(148, 148, 148) !important;
+}
+.Comment{
+    width: 320px;
+    margin-top: -10px;
+}
+.Comment img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 6px;
+    float: left;
+}
+.addComment{
+    margin-left: 10px;
+    margin-top: 2px;
+    float: left;
+    color: rgb(148, 148, 148);
+}
+.postingTime{
+    color: rgb(148, 148, 148);
+    width: 320px;
+    text-align: left;
+    margin-left: 23px;
+    margin-top: -7px;
+}

@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 252, 255);
+    position: fixed;
+    bottom: 0;
+    height: 52px;
+    box-shadow: -1px -1px 1px rgb(219, 219, 219);
+}
+.footerChild{
+    padding: 5px;
+    padding-left: 5px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.fa-home, .fa-search, .fa-plus-square, .Heart, .fa-user{
+    font-size: 25px;
+    color: black;
+}
+.fa-search, .fa-home{
+    color: rgb(32, 32, 32);
+}

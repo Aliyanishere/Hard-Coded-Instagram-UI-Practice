@@ -1,0 +1,41 @@
+.Nav{
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 252, 255);
+    width: 100%;
+    box-shadow: 1px 1px 1px rgb(211, 211, 211);
+    position: sticky;
+    top: 0;
+
+}
+.navChild{
+    margin: 0px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.camIcon{
+    margin-right: 40px;
+}
+.instaLogo{
+    margin-right: 40px;
+    margin-top: 5px;
+}
+.igTvIcon{
+    height: 26px;
+    width: 25px;
+}
+.far{
+    flex: none;
+    margin: 5px;
+}
+
+.fa-circle{
+    color: red;
+    font-size: 10px;
+    margin-left: -9px;
+}
